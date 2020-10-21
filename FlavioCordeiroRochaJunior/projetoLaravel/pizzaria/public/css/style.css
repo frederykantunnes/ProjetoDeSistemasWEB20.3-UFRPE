@@ -1,0 +1,25 @@
+
+.caixa{
+    position: absolute;
+    top:200px;
+    width: 40%;
+    height:400px;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.titulo{
+    color: white;
+    position: relative;
+    top:50px;
+    left: 14%;
+    width: 80%;
+    font-weight: bold;
+    font-family: Arial;
+
+}
+
+.botao-inicio{
+    position: relative;
+    top: 80px;
+    left: 30%;
+}
