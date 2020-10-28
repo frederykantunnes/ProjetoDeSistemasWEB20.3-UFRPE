@@ -25,7 +25,7 @@
                                             <header class="px-6 py-6 flex items-center px-2 py-3">
                                                 <img 
 
-                                                    src="/storage/{{$user->profile_photo }}" 
+                                                    src="/storage/{{$user->getProfilePhoto() }}" 
                                                     alt="{{$user->name }}" class="rounded-full object-cover">
                                                 <div class="ml-4">
                                                     <strong>{{$user->name }}</strong>

@@ -22,7 +22,7 @@ class CreateUsersTable extends Migration
             $table->rememberToken();
             $table->string('whatsapp');
             $table->foreignId('current_team_id')->nullable();
-            $table->string('profile_photo')->default('profile-photos/default.jpg');
+            $table->string('profile_photo')->nullable();
             $table->string('biography')->nullable();
             $table->timestamps();
         });
