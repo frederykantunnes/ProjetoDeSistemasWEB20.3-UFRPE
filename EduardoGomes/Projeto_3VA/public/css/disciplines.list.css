@@ -1,0 +1,56 @@
+.div-article{
+    max-width: 900px;
+    min-width: 480px;
+    margin: auto;
+}
+
+.div-header img{
+    width: 8rem; 
+    height: 8rem;
+}
+
+.div-header strong{
+    font-size: 2.4rem; 
+    font-weight: 800;
+}
+
+.div-header p {
+    font-size: 1.2rem;
+}
+
+.div-header span {
+    font-size: 1.6rem;
+}
+
+.div-bio div {
+    height: 6rem;
+}
+
+.div-bio p {
+    font-size: 1.2rem;
+}
+
+.div-footer footer{
+    background-color: #FAFAFC;
+}
+
+.div-footer p {
+    font-size: 1.4rem; 
+    line-height: 2.4rem;
+}
+
+.div-footer strong {
+    font-size: 1.6rem;
+}
+
+.div-footer a {
+    width:20rem; 
+    height: 5.6rem; 
+    background-color: #04D361;  
+    font-size: 1.2rem;
+}
+
+.div-footer img {
+    width: 2rem; 
+    height: 2rem;
+}

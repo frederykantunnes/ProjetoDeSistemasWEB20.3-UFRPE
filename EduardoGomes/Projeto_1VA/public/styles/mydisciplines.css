@@ -92,6 +92,7 @@ main{
 
 .teacher-item footer a {
     margin: 2rem;
+    text-decoration: none;
 }
 
 .teacher-item footer a img {
