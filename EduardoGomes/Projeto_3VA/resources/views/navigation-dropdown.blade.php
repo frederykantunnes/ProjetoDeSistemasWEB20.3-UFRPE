@@ -156,7 +156,7 @@
         <div class="pt-4 pb-1 border-t border-gray-200">
             <div class="flex items-center px-4">
                 <div class="flex-shrink-0">
-                    <img class="h-10 w-10 rounded-full" src="/storage/{{ Auth::user()->getProfilePhoto() }}" alt="{{ Auth::user()->name }}" />
+                    <img class="h-10 w-10 rounded-full" src="../../../storage/{{ Auth::user()->getProfilePhoto() }}" alt="{{ Auth::user()->name }}" />
                 </div>
 
                 <div class="ml-3">
