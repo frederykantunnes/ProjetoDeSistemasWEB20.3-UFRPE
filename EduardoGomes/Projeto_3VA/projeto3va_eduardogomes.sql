@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 28-Out-2020 às 23:57
+-- Tempo de geração: 29-Out-2020 às 04:31
 -- Versão do servidor: 10.4.14-MariaDB
 -- versão do PHP: 7.4.10
 
@@ -148,7 +148,10 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
-('EcbrFgzc7huzZdqpXfQx7kFPjddu7Kcc7onkkfwo', 11, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36', 'YTo3OntzOjY6Il90b2tlbiI7czo0MDoiNzF2NVNIVExPQlZlTGRWNTRTRW93aTJXa2U0OUQ3Z09CaFdDdldwYyI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czozOiJ1cmwiO2E6MTp7czo4OiJpbnRlbmRlZCI7czoyMToiaHR0cDovL2xvY2FsaG9zdDo4MDAwIjt9czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzQ6Imh0dHA6Ly9sb2NhbGhvc3Q6ODAwMC91c2VyL3Byb2ZpbGUiO31zOjUwOiJsb2dpbl93ZWJfNTliYTM2YWRkYzJiMmY5NDAxNTgwZjAxNGM3ZjU4ZWE0ZTMwOTg5ZCI7aToxMTtzOjE3OiJwYXNzd29yZF9oYXNoX3dlYiI7czo2MDoiJDJ5JDEwJEk3SS5zbTVFMFlwQ09uVmZvNzhwRk9ZaXkwbldKbERwa1FVL0drelhweWFZSTlaYlI3QUYyIjtzOjIxOiJwYXNzd29yZF9oYXNoX3NhbmN0dW0iO3M6NjA6IiQyeSQxMCRJN0kuc201RTBZcENPblZmbzc4cEZPWWl5MG5XSmxEcGtRVS9Ha3pYcHlhWUk5WmJSN0FGMiI7fQ==', 1603925753);
+('4laA1mFrHmZPgl0onbNE0dg3L7ntiXcVHelwBmwj', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36', 'YTo0OntzOjY6Il90b2tlbiI7czo0MDoiZjVoZ3o5SnAwdTlxU1B1UlMxTmRrNnBxTG5TOVRmQmFScjZkRVFlaiI7czozOiJ1cmwiO2E6MTp7czo4OiJpbnRlbmRlZCI7czoyMToiaHR0cDovLzEyNy4wLjAuMTo4MDAwIjt9czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6Mjc6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9sb2dpbiI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fX0=', 1603935736),
+('TfamZaRVzk6WW9jxTUA7zXRqPO3TpJSU3WFnZUe3', 12, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36', 'YTo3OntzOjY6Il90b2tlbiI7czo0MDoidms5SEQwY0xndTNqeFdURnJobWRxazZsWGtaNlFQbmxLVG1iMFVTbiI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czozOiJ1cmwiO2E6MTp7czo4OiJpbnRlbmRlZCI7czoyMToiaHR0cDovL2xvY2FsaG9zdDo4MDAwIjt9czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzQ6Imh0dHA6Ly9sb2NhbGhvc3Q6ODAwMC91c2VyL3Byb2ZpbGUiO31zOjUwOiJsb2dpbl93ZWJfNTliYTM2YWRkYzJiMmY5NDAxNTgwZjAxNGM3ZjU4ZWE0ZTMwOTg5ZCI7aToxMjtzOjE3OiJwYXNzd29yZF9oYXNoX3dlYiI7czo2MDoiJDJ5JDEwJFFmZXVid29qTEZ2YnpnNmoyR2Y2Sy5XbTVZU0pnREZOc0hXN2JpUE5ib1UwbUxLcm55TWdPIjtzOjIxOiJwYXNzd29yZF9oYXNoX3NhbmN0dW0iO3M6NjA6IiQyeSQxMCRRZmV1YndvakxGdmJ6ZzZqMkdmNksuV201WVNKZ0RGTnNIVzdiaVBOYm9VMG1MS3JueU1nTyI7fQ==', 1603941838),
+('UMLdCcGogSeSh7BNCnQU657psdGy994sPeX0ybqO', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36', 'YTo0OntzOjY6Il90b2tlbiI7czo0MDoiRHRjdXpmM3RCazVLNVZxU0tUSHBWUWxCdFluQTBPZ0FydDVDTkJBRSI7czozOiJ1cmwiO2E6MTp7czo4OiJpbnRlbmRlZCI7czoyMToiaHR0cDovL2xvY2FsaG9zdDo4MDAwIjt9czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MjE6Imh0dHA6Ly9sb2NhbGhvc3Q6ODAwMCI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fX0=', 1603938339),
+('XWlDt52in24ZNPfA8pcIG6jOA8uxLtO32jLmAiKu', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36', 'YTo0OntzOjY6Il90b2tlbiI7czo0MDoiaElwZ0oxVEt5WWtFOTZlemFKNXhneWF1bzhMaVZNZ1hLZHlpZ1VTMCI7czozOiJ1cmwiO2E6MTp7czo4OiJpbnRlbmRlZCI7czoyMToiaHR0cDovLzEyNy4wLjAuMTo4MDAwIjt9czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6Mjc6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9sb2dpbiI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fX0=', 1603935736);
 
 -- --------------------------------------------------------
 
@@ -178,7 +181,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `two_factor_secret`, `two_factor_recovery_codes`, `remember_token`, `whatsapp`, `current_team_id`, `profile_photo`, `biography`, `created_at`, `updated_at`) VALUES
-(1, 'Eduardo Gomes Ferreira Souza', 'eduardogomesfs4@gmail.com', NULL, '$2y$10$8FkApDS.G6DK29h3pdunW.LWqQBUHZ2V0o3zaMK8bjRFlavFPKGbO', NULL, NULL, 'r8TB5m9QxzOKGCGXeiPTqN0YZf5PNxPukwhKRTqx2QcUBZbGfBjmgpBFS6ZQ', '87999223925', NULL, 'profile-photos/E1r4LPkadtUPiEQzIeOHfzrLK2teFSkOkFRZjVua.png', 'oláaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', '2020-10-26 05:46:22', '2020-10-29 00:55:57'),
+(1, 'Eduardo Gomes Ferreira Souza', 'eduardogomesfs4@gmail.com', NULL, '$2y$10$8FkApDS.G6DK29h3pdunW.LWqQBUHZ2V0o3zaMK8bjRFlavFPKGbO', NULL, NULL, 'k1VW42chalOwkk8jFiA3o5q9erDqRcnqJby6ONGbpUFiZFb7sXfUMNjZ3gZy', '87999223925', NULL, 'profile-photos/E1r4LPkadtUPiEQzIeOHfzrLK2teFSkOkFRZjVua.png', 'oláaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', '2020-10-26 05:46:22', '2020-10-29 06:22:06'),
 (9, 'aasdasd', 'a@gmail.com', NULL, '$2y$10$pHG26jCAtoPLI8k0LZoUr.WpTHgIovIV/kYHnZx3TV8T3voS/1P0y', NULL, NULL, NULL, '1231231', NULL, 'profile-photos/z2oP5OsDkOx380MTXciAXokk6ZZ2r0Sr3QDGjIRI.jpeg', 'asdasda', '2020-10-29 01:16:38', '2020-10-29 01:24:04'),
 (10, 'fasfadqw', 'b@gmail.com', NULL, '$2y$10$7mg833WBQFD.7mkdSbdHxOwFXWnHE/E3Qcm.eo0L0ncuavP5SBxSS', NULL, NULL, NULL, '11111111111', NULL, 'profile-photos/pXhlrMFYlMS0MwNFIpjsodEOizhvJLgsvKJFEntw.png', NULL, '2020-10-29 01:24:45', '2020-10-29 01:41:25'),
 (11, 'asd', 'c@gmail.com', NULL, '$2y$10$I7I.sm5E0YpCOnVfo78pFOYiy0nWJlDpkQU/GkzXpyaYI9ZbR7AF2', NULL, NULL, NULL, '1231', NULL, 'profile-photos/7aS4j2g4e1yWEjoNKWzBy0zQqpUYhkeNpV3vqruR.png', NULL, '2020-10-29 01:55:41', '2020-10-29 01:55:52');
@@ -267,7 +270,7 @@ ALTER TABLE `personal_access_tokens`
 -- AUTO_INCREMENT de tabela `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
