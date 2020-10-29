@@ -52,4 +52,13 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function getProfilePhoto()
+    {   
+        if ($this->profile_photo != null){ 
+            return $this->profile_photo;
+        }
+        return "profile-photos/default.jpg";
+    }
+    
 }
