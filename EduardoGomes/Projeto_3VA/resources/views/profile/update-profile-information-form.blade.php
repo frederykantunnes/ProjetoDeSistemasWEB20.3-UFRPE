@@ -27,7 +27,8 @@
 
                 <!-- Current Profile Photo -->
                 <div class="mt-2" x-show="! photoPreview">
-                    <img src= "../../../../storage/{{ Auth::user()->getProfilePhoto() }}" class="rounded-full h-20 w-20 object-cover" style="width: 8rem; height: 8rem;">
+                            
+                    <img src= "/storage/{{Auth::user()->getProfilePhoto()}}" class="rounded-full h-20 w-20 object-cover" style="width: 8rem; height: 8rem;">
                 </div>
 
                 <!-- New Profile Photo Preview -->
